@@ -1,0 +1,59 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+p {
+  font-size: 40px;
+}
+
+header {
+  font-size: 20px; 
+}
+
+label {
+
+}
+
+.one {
+ font-family: 'Wingdings', sans-serif;
+}
+
+.two {
+  font-family: 'Courier', serif;
+}
+
+.three {
+  font-family: 'Georgia', serif; 
+}
+
+.four {
+  font-family: 'Papyrus', sans-serif;
+}
+
+.five {
+  font-family: 'Garamond', serif;
+}
+
+.six {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.seven {
+  font-family: 'Times New Roman', serif;
+}
+
+.eight {
+  font-family: 'Helvetica', sans-serif;
+}
+
+.nine {
+  font-family: 'Comic Sans', serif;
+}
+
+.ten {
+  font-family: 'Tahoma', sans-serif;
+}
+
+.eleven {
+  font-family: 'Lucida Calligraphy', serif;
+}

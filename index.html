@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <div id="top">
+      <header>this is <header> 
+      <p>obnoxious typography</p>
+    </div>
+    
+    <!--onsubmit allows for form submission without a page refresh-->
+    <form id="frm" action="" onsubmit="return false"> 
+      <section>
+          <label for="para">Insert some text: </label>
+          <br>
+          <textarea rows="4" cols="50" id="para" type="text" name="para" class="para"></textarea>
+      </section>
+      <div class="button">
+        <button id="button" type="submit" onclick="intake()">Submit</button>
+      </div>
+    </form>
+
+    <div id="thediv">
+      <p id="output"></p>
+    </div>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
